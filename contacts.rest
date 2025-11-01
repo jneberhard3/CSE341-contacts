@@ -32,7 +32,7 @@ Content-Type: application/json
   "firstName": "Jared A",
   "lastName": "Eberhard",
   "email": "jaeeberhard@gmail.com",
-  "favoriteColor": "Green",
+  "favoriteColor": "Purple",
   "birthday": "10/31/2002"
 }
 

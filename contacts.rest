@@ -9,34 +9,3 @@ GET http://localhost:3000/contacts/69064ee596c0157c44c90979
 Content-Type: application/json
 
 
-
-### Create a new contact
-POST http://localhost:3000/contacts
-Content-Type: application/json
-
-{
-  "firstName": "Keith",
-  "lastName": "Eberhard",
-  "email": "rednom@gmail.com",
-  "favoriteColor": "Red",
-  "birthday": "02/11/1993"
-}
-
-###
-
-### Update a contact
-PUT http://localhost:3000/contacts/69064fa496c0157c44c9097b
-Content-Type: application/json
-
-{
-  "firstName": "Jared A",
-  "lastName": "Eberhard",
-  "email": "jaeeberhard@gmail.com",
-  "favoriteColor": "Purple",
-  "birthday": "10/31/2002"
-}
-
-###
-
-### Delete a contact
-DELETE http://localhost:3000/contacts/69064f8b96c0157c44c9097a

@@ -1,4 +1,4 @@
-### Get all contacts
+### Get all contacts -- local host
 GET http://localhost:3000/contacts
 Content-Type: application/json
 
@@ -9,3 +9,12 @@ GET http://localhost:3000/contacts/69064ee596c0157c44c90979
 Content-Type: application/json
 
 
+### Get all contacts --production
+GET https://cse341-contacts-1-bz0j.onrender.com/contacts
+Content-Type: application/json
+
+###
+
+### Get a single contact 
+GET https://cse341-contacts-1-bz0j.onrender.com/contacts/69064ee596c0157c44c90979
+Content-Type: application/json

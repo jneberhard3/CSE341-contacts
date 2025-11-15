@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 ### put (update) contact by id
-PUT http://localhost:3000/contacts/690deb0d6de45f366fa8e712 HTTP/1.1
+PUT http://localhost:3000/contacts/691548c91250fbbdda8c1cad HTTP/1.1
 Content-Type: application/json
 
 {
@@ -26,10 +26,10 @@ Content-Type: application/json
     "lastName": "White",
     "email": "swhite@fakeemail.com",
     "favoriteColor": "Yellow",
-    "birthday": "5/15/1995"
+    "birthday": "05/15/1995"
 }
 
 ### delete contact by id
-DELETE http://localhost:3000/contacts/690deb0d6de45f366fa8e712 HTTP/1.1
+DELETE http://localhost:3000/contacts/691548c91250fbbdda8c1cad HTTP/1.1
 
 

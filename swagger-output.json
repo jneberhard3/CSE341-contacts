@@ -5,6 +5,7 @@
     "description": "Contacts",
     "version": "1.0.0"
   },
+
   "host": "cse341-contacts-1-bz0j.onrender.com",
   "basePath": "/",
   "schemes": [
